@@ -374,13 +374,17 @@ PrefabInstance:
       propertyPath: m_FlipY
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2122142072274995202, guid: fe7cfca02b09be647b895b358693cb46, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2122142072274995205, guid: fe7cfca02b09be647b895b358693cb46, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.23
+      value: -4.64
       objectReference: {fileID: 0}
     - target: {fileID: 2122142072274995205, guid: fe7cfca02b09be647b895b358693cb46, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.93
+      value: -0.65
       objectReference: {fileID: 0}
     - target: {fileID: 2122142072274995205, guid: fe7cfca02b09be647b895b358693cb46, type: 3}
       propertyPath: m_LocalPosition.z
@@ -584,6 +588,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ae4c5672fa688478c41ae21693fdbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumPower: 5
+  touchTheGround: 0
 --- !u!1 &1899548474
 GameObject:
   m_ObjectHideFlags: 0
